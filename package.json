@@ -1,0 +1,26 @@
+{
+  "name": "robot",
+  "version": "1.0.0",
+  "description": "爬虫系统以及 Robots 协议   利用 Express 搭建 Server、利用 Request 发起网络请求、利用 Cheerio 可以像 JQuery 一样操作 Request 取到的网络 HTML 数据",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jihadwk/robot.git"
+  },
+  "author": "wk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jihadwk/robot/issues"
+  },
+  "homepage": "https://github.com/jihadwk/robot#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "cheerio": "^0.22.0",
+    "cookie-parser": "^1.4.3",
+    "ejs": "2.3.4",
+    "express": "^4.14.1"
+  }
+}
